@@ -1,0 +1,37 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "New event 3",
+    "details": null,
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/79b33f42-5e19-4478-a83c-63cd6dab50c8/attendees
+Content-Type: application/json
+
+{
+    "name": "Unae A Tupinambás",
+    "email": "unae20@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/79b33f42-5e19-4478-a83c-63cd6dab50c8
+
+###
+
+GET http://localhost:3333/attendees/1/badge
+
+###
+
+GET http://localhost:3333/attendees/13/check-in
+
+###
+GET http://localhost:3333/events/79b33f42-5e19-4478-a83c-63cd6dab50c8/attendees
+
+###
+
+GET http://localhost:3333/events/79b33f42-5e19-4478-a83c-63cd6dab50c8/attendees?query=unae
