@@ -8,10 +8,6 @@ Os participantes inscritos podem emitir uma credencial para check-in no dia do e
 
 O sistema fará um scan da credencial do participante para permitir a entrada no evento.
 
-
-DOCUMENTATION ON: http://localhost:3333/docs (swagger  UI) 
-<img src="pass.in-node-nlw/docs_pass.in.JPG" alt="Print Screen of documentation">
-
 ##Requisitos
 
 ###Requisitos funcionais
