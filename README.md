@@ -10,8 +10,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 
 DOCUMENTATION ON: http://localhost:3333/docs (swagger  UI) 
-![Print Screen of documentation](../docs_pass.in.JPG)
-
+<img src="../docs_pass.in.JPG" alt="Print Screen of documentation">
 
 ##Requisitos
 
